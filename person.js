@@ -1,4 +1,4 @@
-export default class Person {
+ class Person {
     constructor(name) {
         this.name = name;
     }
@@ -6,5 +6,9 @@ export default class Person {
     sayMyName () {
         return `My name is ${this.name}!`;
     }
+ 
+}
 
+module.exports = {
+    Person,
 }

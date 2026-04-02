@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "script:dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
     "url": "https://github.com/AndreDERME/node_atvd/issues"
   },
   "homepage": "https://github.com/AndreDERME/node_atvd#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
