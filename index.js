@@ -1,6 +1,4 @@
-const {Person} = require("./person");
 
-//const {path} = require("./modules/path");
 
-const person = new Person ("felipe")
-console.log(person.sayMyName())
+//require("./modules/http");
+require("./modules/express");

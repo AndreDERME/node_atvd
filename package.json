@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "script:dev": "nodemon index.js"
+    "start:dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "description": "",
   "devDependencies": {
     "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
